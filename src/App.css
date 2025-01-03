@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif;
+   
+    
+}
+body{
+    
+    line-height: 1.6;
+    background: rgb(4,0,25);
+    background: radial-gradient(circle, rgba(4,0,25,1) 0%, rgba(35,0,92,1) 100%);
+    overflow-x: hidden;
+}
+.nav{
+    background-color: #1a1a1a;
+}
